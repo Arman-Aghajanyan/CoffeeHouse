@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+input {
+  outline: none;
+}
+
+body {
+  background-color: wheat;
+}
+
+a {
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+}
+
+.cem {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  padding-top: 50px;
+}
+
+._cem {
+  text-align: center;
+  color: #e6ccb2;
+  margin: 0 0 10px 0;
+  width: auto;
+  height: 200px;
+  background-color: #b08968;
+}
+.roleInput {
+  width: 400px;
+  height: 30px;
+  border: none;
+  margin: 10px 10px 10px 0;
+  padding: 7px;
+  background-color: #e6ccb2;
+  outline: none;
+  border-radius: 5px;
+}
+
+.updAddButt {
+  margin: 10px 10px 0 10px;
+  width: 90px;
+  height: 30px;
+  background-color: #e6ccb2;
+  cursor: pointer;
+  border: none;
+  padding: 7px;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.roleAdd {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  color: #b08968;
+  text-align: center;
+}
+
+.createRole {
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+}
+.gaga {
+  display: flex;
+  justify-content: center;
+}
+
+.roleItem {
+  margin: 10px;
+}
+
+.itemRoleName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 40px;
+  background-color: #e6ccb2;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.edit-deleteButtons {
+  margin-left: 7px;
+}
+
+.delButton {
+  border: 1px solid #593d3b;
+  background-color: #593d3b;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editButton {
+  border: 1px solid #9d6b53;
+  background-color: #9d6b53;
+  margin-left: 5px;
+}
+
+.deleteRole {
+  margin-left: 10px;
+}
+
+.EmployeeName {
+  width: 190px;
+  height: 30px;
+  margin: 0 5px 0 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #e6ccb2;
+}
+
+.addEmployee {
+  height: 30px;
+  width: 90px;
+  background-color: #e6ccb2;
+  margin: 0 5px 0 8px;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 4px;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.spanSelected {
+  width: 200px;
+  border: none;
+  text-align: center;
+}
+
+.selected {
+  width: 230px;
+  height: 35px;
+}
+
+.rolesAssign {
+  width: 200px;
+  height: 35px;
+  margin: 0 0 0 7px;
+  cursor: pointer;
+  background-color: #e6ccb2;
+  color: black;
+  padding: 2px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.drpSelect {
+  margin-top: 10px;
+  height: 35px;
+  position: relative;
+  background-color: #e6ccb2;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.recruitCenter {
+  text-align: center;
+  color: #b08968;
+  min-height: 400px;
+}
+
+.recruit {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.cemSpan {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 20px;
+  color: #b08968;
+}
+
+.workerMap {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 5px 45px;
+}
+
+
+.workerInfo {
+  width: 200px;
+  height: 30px;
+  background-color: #e6ccb2;
+  margin: 5px 0 0 13px;
+  border-radius: 5px;
+  padding: 4px;
+  color: black;
+  font-size: 18px;
+}
+.workerButtons {
+  margin: 3px 3px 7px 8px;
+  width: 70px;
+}
+
+.selectedWorker {
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #e6ccb2;
+  position: relative;
+  border-radius: 5px;
+  margin: 0 10px 10px 10px;
+}
+
+.AllTasks {
+  min-height: 400px;
+}
+
+.createTask {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.CreateRole {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  color: #b08968;
+  text-align: center;
+}
+
+.taskAllInfo {
+  display: flex;
+  justify-content: center;
+}
+
+.taskInfo {
+  text-align: center;
+}
+
+.tasksInfo {
+  margin-left: 40px;
+}
+
+.Route {
+  width: auto;
+  display: flex;
+  height: 50px;
+  padding: 20px;
+  margin-left: 300px;
+}
+
+.for-navigate-positions {
+  position: absolute;
+}
+
+.routeItem {
+  padding: 0 10px 0 10px;
+  width: 200px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.routeItem:hover {
+  color: #b08968;
+  transition: all 0.2s ease-out;
+}
+
+.fontFam {
+  font-family: "Dancing Script", cursive;
+}
+
+.coffeeH {
+  font-size: 100px;
+}
+
+.byMe {
+  font-size: 60px;
+}
+
+.management {
+  margin-left: 70px;
+}
+
+.AboutUs {
+  text-align: center;
+  color: #e6ccb2;
+  background-color: #b08968;
+  height: 350px;
+}
+
+.AboutFont {
+  font-size: 70px;
+  font-family: "Dancing Script", cursive;
+}
+
+.AboutHref {
+  color: #e6ccb2;
+  text-decoration: none;
+}
+
+.error {
+  text-align: center;
+  font-size: 100px;
+  color: red;
+  font-family: "Dancing Script", cursive;
+}
+
+.create_role {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.update_item {
+  margin-top: 70px;
+}
+
+.createRoleColor {
+  color: #b08968;
+}
+
+.backToPages {
+  margin-top: 200px;
+}
+
+.employeeManagement {
+  margin-top: 80px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .file-upload {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 4px solid #ffffff;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #2590eb 50%, #ffffff 50%);
+    background-size: 100% 200%;
+    transition: all 1s;
+    color: #ffffff;
+    font-size: 25px;
+
+    &:hover {
+      background-position: 0 -100%;
+
+      color: #2590eb;
+    }
+  }
+}
+
+input[type="file"] {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.itemImg {
+  margin: 0 10px 0 50px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.itemTitle {
+  min-width: 40px;
+}
+
+.Empty {
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+  color: #b08968;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.BigTitle {
+  width: auto;
+  height: 941px;
+  background-image: url("./assets/images/402532.jpg");
+  color: snow;
+}
+
+.houseInfo {
+  font-family: "Dancing Script", cursive;
+  font-size: 130px;
+  padding: 330px 0 0 170px;
+}
+
+.routeSecondItem {
+  padding: 10px 15px 0 15px;
+  width: 100px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.sec-route {
+  display: flex;
+  margin-left: 400px;
+}
+
+.paddings-for-items {
+  padding: 100px 0 0 0 ;
+}
