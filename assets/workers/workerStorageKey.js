@@ -1,0 +1,1 @@
+export const WORKER_STORAGE_KEY = 'WM__WORKER_STORAGE';
